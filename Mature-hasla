@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+  string haslo;
+  int i;
+  while(true)
+  {
+    cin >> haslo;
+    int length = haslo.length();
+    for (i = 0;  i+1 < length; i++)
+     {
+       if (int (haslo[i+1])+ int (haslo[i+1]) == 220)
+       {
+        cout << haslo << endl;
+        break;
+       }
+     }
+  }
+}
